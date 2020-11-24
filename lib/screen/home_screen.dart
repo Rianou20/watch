@@ -69,7 +69,7 @@ class _MyListItem extends StatelessWidget {
     );
 
     return Container(
-      height: 76,
+      height: 75,
       child: ListTile(
         leading:CachedNetworkImage(
                   imageUrl: itemData[index].imageURL,
